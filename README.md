@@ -1,7 +1,7 @@
 
 # Mensa: Your Personalized Q & A bot for Menstrual Health
 
-![Mensa Logo](https://i.postimg.cc/0yVf8D05/Whats-App-Image-2024-04-20-at-12-31-00-PM.jpg)
+![Mensa Logo](https://i.postimg.cc/HW5jdm9V/Whats-App-Image-2024-04-20-at-12-31-00-PM-1.jpg)
 
 Mensa is an intelligent Q&A bot designed to provide comprehensive information and support regarding female menstrual health. Powered by Langchain & Mistral AI technologies, Mensa leverages Wikipedia, PubMed, and Tavily Search APIs to deliver accurate and detailed responses to user queries.
 
