@@ -20,8 +20,8 @@ Mensa is an intelligent Q&A bot designed to provide comprehensive information an
 
 ## Technologies Used
 
-- **Langchain Community**: Utilizes Langchain Community tools for seamless integration with Wikipedia and PubMed APIs.
-- **Mistral AI**: Employs Mistral AI's ChatFireworks model for generating accurate and informative responses.
+- **Langchain Community**: Utilizes Langchain Community Framework tools for seamless integration with Wikipedia and PubMed APIs.
+- **Mistral AI**: Employs Mistral AI's (Mixtral-8x7B-Instruct) model hosted by Fireworks AI for generating accurate and informative responses.
 - **Streamlit**: Frontend interface built using Streamlit for a user-friendly experience.
 
 ## Get Started
