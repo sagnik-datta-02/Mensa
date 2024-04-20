@@ -51,10 +51,11 @@ def callmensa(input_text):
             things you do not know and you should not entertain any questions that are not related to female menstruation 
             , periods , symptoms related to it , its solutions , diseases related to it and myths related to it.\n\n 
             Make sure to use only the wiki pubmed tool for information and no other sources strictly.
-              Summarize your answers within 150 words. Do not provide articles link but you can tell the sources wherever needed.
+               Do not provide articles link but you can tell the sources wherever needed.
               Here are the names and descriptions for each tool:
 
         {rendered_tools}
+        Strictly Summarize your answers within 150 tokens.
     """
     # prompt = [ SystemMessagePromptTemplate(prompt=PromptTemplate(input_variables=[], template=prompt_template)),
     #            MessagesPlaceholder(variable_name='chat_history', optional=True),
