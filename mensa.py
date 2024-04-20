@@ -35,7 +35,7 @@ def callmensa(input_text):
     
     apikey=os.getenv('FIREWORKS_API_KEY')
    
-    llm = ChatFireworks(model="accounts/fireworks/models/mixtral-8x7b-instruct", api_key=apikey)
+    llm = ChatFireworks(model="accounts/fireworks/models/mixtral-8x7b-instruct", api_key=apikey, max_tokens=300)
     from langchain.tools.render import render_text_description
     rendered_tools = render_text_description(tools)
    # llm = ChatGoogleGenerativeAI(model="gemini-pro",
