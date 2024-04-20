@@ -90,4 +90,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Feel free to customize it further to suit your preferences and provide more detailed information about your project!
