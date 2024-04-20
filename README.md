@@ -43,7 +43,7 @@ To run Mensa locally on your machine, follow these steps:
 1. **Clone the Repository**: Clone the Mensa repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/yourusername/mensa.git
+   git clone [https://github.com/yourusername/mensa.git](https://github.com/sagnik-datta-02/Mensa)
    ```
 
 2. **Navigate to the Directory**: Move into the Mensa directory:
@@ -67,7 +67,7 @@ To run Mensa locally on your machine, follow these steps:
 Once you've installed the dependencies and configured the environment variables, you can run Mensa locally:
 
 ```bash
-python app.py
+python mensa.py
 ```
 
 The application will start running, and you can access it in your web browser by navigating to `http://localhost:8501`.
