@@ -28,9 +28,61 @@ Mensa is an intelligent Q&A bot designed to provide comprehensive information an
 
 To start using Mensa and explore the world of menstrual health, simply [click here](https://mensa-ai.streamlit.app/).
 
-## Contributions
+## How to Run Locally
 
-Contributions to Mensa are welcome! If you have ideas for improvements, feature requests, or bug reports, feel free to open an issue or submit a pull request.
+To run Mensa locally on your machine, follow these steps:
+
+### Prerequisites
+
+1. **Python**: Ensure you have Python installed on your system. You can download it from the [official Python website](https://www.python.org/downloads/).
+
+2. **Virtual Environment (Optional)**: It's recommended to use a virtual environment to manage dependencies. You can create one using `virtualenv` or `venv`.
+
+### Installation
+
+1. **Clone the Repository**: Clone the Mensa repository to your local machine using the following command:
+
+   ```bash
+   git clone https://github.com/yourusername/mensa.git
+   ```
+
+2. **Navigate to the Directory**: Move into the Mensa directory:
+
+   ```bash
+   cd mensa
+   ```
+
+3. **Install Dependencies**: Install the required Python packages using pip:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Configuration
+
+1. **Environment Variables**: Create a `.env` file in the root directory and add the necessary environment variables. You can refer to the `.env.example` file for the required variables.
+
+### Running the Application
+
+Once you've installed the dependencies and configured the environment variables, you can run Mensa locally:
+
+```bash
+python app.py
+```
+
+The application will start running, and you can access it in your web browser by navigating to `http://localhost:8501`.
+
+### Usage
+
+1. **Ask Questions**: Enter your queries about menstrual health in the provided text input field.
+2. **Receive Answers**: Mensa will provide detailed responses sourced from Wikipedia and PubMed.
+3. **Explore Topics**: Browse through various topics related to menstrual health and discover valuable insights.
+
+### Contributing
+
+Contributions to Mensa are welcome! If you'd like to contribute, fork the repository, make your changes, and submit a pull request.
+
+Now you're all set to run Mensa locally on your machine and explore the world of menstrual health! If you encounter any issues or have questions, feel free to reach out to the project maintainers.
 
 ## License
 
